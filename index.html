@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+     <h1>fast client</h1>
+        <div>
+            <input type="text" id='server' placeholder="server or api address" value='http://localhost:8000'>
+            <input type="text" id='request' placeholder="request" value='/users/add'>
+            <input type="file" id='file-selector'>
+            <button id='sendImage'>post image</button>
+            <br />
+            <textarea cols="40" rows="12" id='json'></textarea>
+            <br />
+            <button id='post'>post json</button>
+            <button id='get'>get json</button>
+        </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

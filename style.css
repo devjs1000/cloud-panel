@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#server{
+  width: 15rem;
+  margin: 0 1rem;
+  padding: .5rem 1rem;
+}
+#request{
+  min-width: 5rem;
+  padding: .5rem 1rem;
+}
+#json{
+  width: calc(100% - 2rem);
+  height: 70vh;
+  margin: 1rem ;
+}
+h1{
+  text-align: center;
+  color: rgba(50,100,50);
+}
+#post{
+  padding: .5rem 1rem;
+  margin: 0 1rem;
+}
+#get{
+  padding: .5rem 1rem;
+}
+
